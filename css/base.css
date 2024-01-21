@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #51a5ff;
+  --secondary-color: #0b0d39;
+  --secondary-color-light: #1a1c46;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+button,
+input {
+  font-family: tanha;
+  border: none;
+  outline: none;
+}
+
+body {
+  background: var(--secondary-color);
+  color: #fff;
+  font-family: tanha;
+  line-height: 2.4rem;
+}
+
+@font-face {
+  font-family: tanha;
+  src: url("../assets/Tanha.ttf");
+}
+
+@font-face {
+  font-family: varela;
+  src: url("../assets/varela-round.ttf");
+}
+
+/* main sections title */
+.section-title {
+  font-size: 1.7rem;
+  margin: 1rem 0 2.5rem;
+  position: relative;
+  text-align: right;
+}
+
+@media screen and (max-width: 575px) {
+  .section-title {
+    text-align: center;
+  }
+}
